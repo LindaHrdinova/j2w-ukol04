@@ -90,4 +90,8 @@ public class VizitkaService {
     public Vizitka getById(int id) {
         return seznamVizitek.get(id);
     }
+
+    public void deleteById(int id) {
+        seznamVizitek.remove(id);
+    }
 }
