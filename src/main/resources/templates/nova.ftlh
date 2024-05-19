@@ -8,40 +8,40 @@
 <div class="detail">
     <div class="vizitka">
 
-        <form class="form">
+        <form action="/nova" method="post" class="form">
             <div class="formInput">
                 <span><label for="jmeno">Jméno: </label></span>
-                <span><input type="text"/></span>
+                <span><input id="jmeno" name="jmeno" type="text"/></span>
             </div>
             <div class="formInput">
                 <label class="formLabel" for="firma">Firma: </label>
-                <input type="text"/>
+                <input id="firma" name="firma" type="text"/>
             </div>
             <div class="formInput">
                 <label class="formLabel" for="ulice">Ulice: </label>
-                <input type="text"/>
+                <input id="ulice" name="ulice" type="text"/>
             </div>
             <div class="formInput">
                 <label class="formLabel" for="psc">PSČ: </label>
-                <input type="text"/>
+                <input id="psc" name="obecPsc" type="text"/>
             </div>
             <div class="formInput">
                 <label class="formLabel" for="obec">Obec: </label>
-                <input type="text"/>
+                <input id="obec" name="obecPsc" type="text"/>
             </div>
             <div class="formInput">
                 <label class="formLabel" for="email">Email: </label>
-                <input type="text"/>
+                <input id="email" name="email" type="text"/>
             </div>
             <div class="formInput">
                 <label class="formLabel" for="telefon">Telefon: </label>
-                <input type="text"/>
+                <input id="telefon" name="telefon" type="text"/>
             </div>
             <div class="formInput">
                 <label class="formLabel" for="web">Web: </label>
-                <input type="text"/>
+                <input id="web" name="web" type="text"/>
             </div>
-            <button class="submit">REGISTER</button>
+            <button class="submit">Přidat vizitku</button>
         </form>
     </div>
     <nav>

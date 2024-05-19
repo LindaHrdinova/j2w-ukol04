@@ -79,6 +79,10 @@ public class VizitkaService {
         );
     }
 
+    public void append(Vizitka novaVizitka) {
+        seznamVizitek.add(novaVizitka);
+    }
+
     public List<Vizitka> getAll() {
         return seznamVizitek;
     }
