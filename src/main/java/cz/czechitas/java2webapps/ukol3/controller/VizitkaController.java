@@ -30,4 +30,11 @@ public class VizitkaController {
         result.addObject("vizitka", service.getById(id));
         return result;
     }
+
+    @GetMapping("/nova")
+    public ModelAndView nova() {
+        ModelAndView result = new ModelAndView("nova");
+        result.addObject("nova", service.getAll());
+        return result;
+    }
 }
