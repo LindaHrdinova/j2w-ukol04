@@ -14,7 +14,7 @@
                 <div class="udaje">
                     <div class="adresa">
                         <div>${vizitka.ulice}</div>
-                        <div><span>${vizitka.obecPsc}</span>${vizitka.obecPsc}</div>
+                        <div><span>${vizitka.obecPsc}</span></div>
                     </div>
                     <div class="kontakty">
                         [#if vizitka.email??]
