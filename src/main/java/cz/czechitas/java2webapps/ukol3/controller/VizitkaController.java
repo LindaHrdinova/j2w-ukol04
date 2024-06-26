@@ -46,8 +46,8 @@ public class VizitkaController {
         return "redirect:/";
     };
 
-    @PostMapping("/detail/{id}")
-    public String delete (@PathVariable int id)
+    @PostMapping("/delete")
+    public String delete ( int id)
     {
         service.deleteById(id);
         return "redirect:/";

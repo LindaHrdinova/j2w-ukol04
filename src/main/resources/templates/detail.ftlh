@@ -29,8 +29,8 @@
         <iframe style="border:none" src="https://frame.mapy.cz/?q=${vizitka.celaAdresa?url("UTF-8")}"
                 width="100%" height="100%" frameborder="0"></iframe>
     </div>
-    <form method="post" action="/">
-        <input type="hidden" name="index"/>
+    <form method="post" action="/delete">
+        <input type="hidden" name="id" value="${id}"/>
         <button type="submit">Smazat</button>
     </form>
 
